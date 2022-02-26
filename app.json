@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "JLPT 단어",
+    "slug": "jlpt-tango",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.0.4",
+      "supportsTablet": false,
+      "bundleIdentifier": "com.twi1ight.jlpttangoup"
+    },
+    "android": {
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+      },
+      "package": "com.twi1ight.jlpttangoup"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
